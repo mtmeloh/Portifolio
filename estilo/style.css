@@ -76,6 +76,12 @@ nav ul li a:hover{
     margin-top: -50px;
 }
 
+#Inicio a{
+    text-decoration: none;
+    text-align: center;
+    
+}
+
 
 .Int{
     color: lightgray;
