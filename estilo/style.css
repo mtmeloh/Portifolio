@@ -73,6 +73,7 @@ nav ul li a:hover{
     padding-left: 150px;
     display: flex;
     align-items: center;
+    margin-top: -50px;
 }
 
 
@@ -86,6 +87,34 @@ nav ul li a:hover{
 .Int h3{
     margin-left: 40px;
     font-size: 2em;
+}
+
+#btn-cv{
+    margin-top: 30px;
+    padding: 12px 25px;
+    font-size: 1em;
+    font-weight: 500;
+
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+
+    cursor: pointer;
+    width: 200px;
+
+    transition: 
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+#btn-cv:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255,255,255,0.6);
 }
 
 .aparecer {
