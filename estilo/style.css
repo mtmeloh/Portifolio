@@ -20,11 +20,6 @@ body{
     background-size: cover;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-
 header{
     position: static;
     padding: 50px;
@@ -33,17 +28,24 @@ header{
     z-index: 10;
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 
 nav ul{
     display: flex;
+    align-items: center;
     list-style: none;
     padding-right: 100px;
     gap: 90px;
+    margin-left: 30px;
 }
 
 nav ul li{
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 400;
+    margin-right: -50px;
 }
 
 nav h3{
@@ -92,28 +94,25 @@ nav ul li a:hover{
 }
 .Int h3{
     margin-left: 40px;
-    font-size: 2em;
+    font-size: 1.8em;
+}
+
+.div-btn-cv{
+    margin-top: 15px;
 }
 
 #btn-cv{
-    margin-top: 30px;
     padding: 12px 25px;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 500;
 
     background-color: transparent;
     color: white;
     border: 1px solid white;
     border-radius: 30px;
-
     cursor: pointer;
     width: 200px;
 
-    transition: 
-        background-color 0.3s ease,
-        color 0.3s ease,
-        transform 0.3s ease,
-        box-shadow 0.3s ease;
 }
 
 #btn-cv:hover{
@@ -161,7 +160,7 @@ nav ul li a:hover{
 
 .fa-brandss{
     border: 1px solid rgb(255, 254, 254);
-    padding: 150px;
+    padding: 130px;
     font-size: 5em;
     background-color: rgba(0, 0, 0, 0.634);
     margin: 30px;
@@ -263,7 +262,7 @@ nav ul li a:hover{
     flex-direction: column;
     padding-top: 10px;
     border: 1px solid rgb(195, 7, 224);
-    width: 300px;
+    width: 250px;
     height:500px;
     margin: 15px;
     border-radius: 10px;
@@ -309,6 +308,6 @@ footer p{
     text-align: center;
     font-size: 0.9em;
     background-color: rgba(76, 0, 130, 0.323);
-    padding: 5px;
+    padding: 10px;
     color: white;
 }

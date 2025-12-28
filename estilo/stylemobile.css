@@ -1,0 +1,100 @@
+/* Mobile */
+@media screen and (min-width: 359px) and (max-width: 960px) {
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    nav h3{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+
+    #Inicio{
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+    }
+    .div-btn-cv{
+        margin-top: 20px;
+    }
+    #skills h3{
+        margin-top: 0px;
+    }
+    .fa-brandss{
+        padding: 110px;
+        font-size: 5em;
+        background-color: rgba(0, 0, 0, 0.634);
+        margin: 10px;
+        transition: ease 2s;
+    }
+
+    .fa-solid{
+        padding: 110px;
+        margin: 0px;
+    }
+
+    .fa-brandss:hover,.fa-solid:hover,.html:hover{
+    margin: 50px 0px;
+    }
+
+    #projetos{
+        display: flex;
+        width: 50vw;
+        justify-self: center;
+    }
+    .projeto-card{
+    border: 1px solid white;
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 300px;
+    min-height: 300px;
+    }
+
+
+    #contato p{
+        text-align: center;
+
+
+    }
+
+    .item-container{
+    font-size: 0.6em;
+    flex-wrap: wrap;
+    width: 100px;
+    height:100px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.123);
+    
+}
+
+.item-container i{
+    font-size: 2em;
+    color: purple;
+    transition: ease 0.5s;
+}
+
+.item-container:hover{
+    background-color: rgba(255, 255, 255, 0.422);
+    color: black;
+    transform: translateX(0px);
+    border-color: white;
+}
+
+}
+
+/* Desktop */
+@media screen and (min-width: 961px) {
+
+    header {
+        flex-direction: row;
+    }
+}
