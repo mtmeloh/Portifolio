@@ -378,16 +378,16 @@ nav ul li a:hover{
     background: rgba(255, 255, 255, 0.05); 
     backdrop-filter: blur(10px); 
 
-    border: 1px solid rgb(195, 7, 224);
+    border: 1px solid rgba(195, 7, 224, 0.312);
     box-shadow: 0 0px 10px rgba(97, 5, 162, 0.218);
     transition:ease-in 0.7s;
 }
 .projeto-card:hover{
-    background-color: rgba(255, 255, 255, 0.422);
+    background-color: rgba(255, 255, 255, 0.467);
     color: black;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     cursor: pointer;
-    border: 1px solid rgba(195, 7, 224, 0.616);
+    border: 1px solid rgba(195, 7, 224, 0.199);
     box-shadow: 0 4px 30px rgba(97, 5, 162, 0.4);
 }
 #contato{
