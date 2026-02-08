@@ -47,25 +47,33 @@
 }
 
 .html1{
-    width: 65vw;
+    width: 61vw;
 }
 .css{
-    width: 65vw;
+    width: 61vw;
 }
 .js{
-    width: 65vw;
+    width: 61vw;
 }
 .java{
-    width: 65vw;
+    width: 61vw;
+}
+#leaf{
+    width: 61vw;
 }
 .logica{
-    width: 65vw;
+    width: 61vw;
+    font-size: 0.8em;
+    font-weight: 500;
+    line-height: 20px;
+    height: 40px;
 }
+
 .postgree{
-    width: 65vw;
+    width: 61vw;
 }
 .mysql{
-    width: 65vw;
+    width: 61vw;
 }
 
 
@@ -80,8 +88,12 @@
         border: 1px solid white;
         min-width: 350px;
         max-width: 350px;
-        max-height: 300px;
-        min-height: 300px;
+        max-height: 350px;
+        min-height: 350px;
+    }
+
+    .Agd > h4{
+        font-size: 0.9em;
     }
 
  /*===================Section COntato======================*/

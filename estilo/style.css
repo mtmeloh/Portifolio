@@ -266,7 +266,6 @@ nav ul li a:hover{
     width: 24vw;
     border-radius: 5px;
     padding: 5px;
-    font-size: 0.8em;
 }
 
 .logica:hover{
@@ -379,7 +378,8 @@ nav ul li a:hover{
 }
 
 .projeto-card a {
-    color: purple;
+    margin-top: 10px;
+  color: rgb(17, 239, 213);
 }
 
 .projeto-card{
