@@ -399,7 +399,7 @@ nav ul li a:hover{
 .projeto-card:hover{
     background-color: rgba(255, 255, 255, 0.467);
     color: black;
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     cursor: pointer;
     border: 1px solid rgba(195, 7, 224, 0.199);
     box-shadow: 0 4px 30px rgba(97, 5, 162, 0.4);
