@@ -14,7 +14,7 @@ body{
     width: 100vw;
     overflow-x: hidden;
     background-image: /*linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),*/
-    url(../imagens/ft-2.jpg);
+    url(../imagens/ft-3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -198,6 +198,11 @@ nav ul li a:hover{
     align-items: center;
     gap: 15px;
 }
+
+.item-container-skills ul li span{
+    padding-right: 10px;
+    font-size: 1em;
+}
 .html1{
     background: linear-gradient(90deg, #ff6b6b, #ff8e53);
     box-shadow: 0 0 10px rgba(255, 107, 107, 0.596);
@@ -243,6 +248,17 @@ nav ul li a:hover{
     box-shadow: 0 0 10px #8b0000b1;
 }
 
+#leaf{
+    background: linear-gradient(135deg, #03fb03,#05bf0564);
+    box-shadow: 0 0 10px #09aa09;
+    width: 24vw;
+    border-radius: 5px;
+    padding: 5px;
+}
+#leaf:hover{
+    background: linear-gradient(110deg,#05bf0564,  #03fb03);
+    box-shadow: 0 0 10px  #04ea04;
+}
 
 .logica{
     background: linear-gradient(135deg,#7c3aed,#3b82f6);
@@ -355,8 +371,6 @@ nav ul li a:hover{
 .projeto-card h4{
     margin-top: -40px;
     margin-bottom: 20px;
-
-
 }
 .container-projetos{
     display: flex;
@@ -407,7 +421,6 @@ nav ul li a:hover{
 .container-contato{
     display: flex;
     flex-direction: row;
-    background-color: black;
 }
 
 
