@@ -2,7 +2,13 @@
 @media screen and (min-width: 359px) and (max-width: 960px) {
 
  /*===================Section Inicio======================*/
-    header {
+    
+ body{
+    overflow-x: hidden;
+ }
+ 
+ 
+ header {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
