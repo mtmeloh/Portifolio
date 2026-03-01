@@ -15,8 +15,8 @@ body{
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     overflow-x: hidden;
-    background-image: /*linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),*/
-    url(../imagens/ft-3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url(../imagens/patinho01.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -175,8 +175,6 @@ nav ul li a:hover{
     backdrop-filter: blur(10px); 
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-
-
 
 }
 
@@ -394,9 +392,8 @@ nav ul li a:hover{
     padding: 100px;
     background: rgba(255, 255, 255, 0.05); 
     backdrop-filter: blur(10px); 
-
-    border: 1px solid rgba(195, 7, 224, 0.312);
-    box-shadow: 0 0px 10px rgba(97, 5, 162, 0.218);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     transition:ease-in 0.7s;
 }
 .projeto-card:hover{
