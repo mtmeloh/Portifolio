@@ -5,6 +5,9 @@
     
  body{
     overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: start bottom;
  }
  
  
@@ -35,7 +38,32 @@
         margin-top: 20px;
     }
  
- 
+    /*===================Section Sobre Mim======================*/
+#Sobre-mim{
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#Sobre-mim > h3{
+    text-align: center;
+    margin: 70px;
+}
+
+#Sobre-mim > div{
+    font-size: 1.4em;
+    line-height: 35px;
+    padding: 10px;
+    width: 98vw;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+#Sobre-mim > div > p{
+    padding: 10px;
+}
  
     /*===================Section Skills======================*/
 
@@ -81,7 +109,15 @@
 .mysql{
     width: 61vw;
 }
-
+.git{
+    width: 61vw;
+}
+.github{
+    width: 61vw;
+}
+.vs{
+    width: 61vw;
+}
 
  /*===================Section Projetos======================*/
     #projetos {

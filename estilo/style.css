@@ -147,8 +147,39 @@ nav ul li a:hover{
   }
 }
 
+
+#Sobre-mim{
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#Sobre-mim > h3{
+    text-align: center;
+    margin: 50px;
+}
+
+#Sobre-mim > div{
+    font-size: 1.2em;
+    width: 70vw;
+    line-height: 30px;
+    font-weight: 400;
+
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.237); 
+    backdrop-filter: blur(20px); 
+    padding: 90px;
+
+    color: rgb(255, 255, 255);
+}
+#Sobre-mim > div > p{
+    padding: 10px;
+}
 #skills{
-    min-width: 100vw;
+    width: 100vw;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -164,6 +195,7 @@ nav ul li a:hover{
 .container-skills{
     display: flex;
     justify-content: center;
+     flex-wrap: wrap;
 
 }
 .item-container-skills{
@@ -301,6 +333,54 @@ nav ul li a:hover{
      box-shadow: 0 0 10px #00758f7b;
 }
 
+.vs{
+    background: linear-gradient(135deg, #4238fff3, #3299e9);
+    box-shadow: 0 0 10px #00758f65;
+    width: 24vw;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.vs:hover{
+     background: linear-gradient(135deg, blue, rgb(0, 200, 255));
+     box-shadow: 0 0 10px #00758f7b;
+}
+
+.github{
+    background: linear-gradient(135deg,#070809,white);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.121);
+    width: 24vw;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.github:hover{
+     background: linear-gradient(135deg, white,#070809);
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.208);
+     color: black;
+}
+.github > i{
+    font-size: 1.4em;
+}
+
+.git{
+    background: linear-gradient(135deg, #dc7c07, #fa7900);
+    box-shadow: 0 0 10px #00758f65;
+    width: 24vw;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.git:hover{
+     background: linear-gradient(135deg,  #fa7900,#dc7c07);
+     box-shadow: 0 0 10px #ef7e0592;
+}
+.git > i{
+    font-size: 1.4em;
+}
 
 .item-container-skills ul li p{
     text-align: right;
@@ -483,4 +563,5 @@ footer p{
     background-color: rgba(76, 0, 130, 0.323);
     padding: 10px;
     color: white;
+    min-width: 100vw;
 }
