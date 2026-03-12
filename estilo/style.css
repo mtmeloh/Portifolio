@@ -16,12 +16,14 @@ body{
     width: 100vw;
     overflow-x: hidden;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url(../imagens/patinho01.jpg);
+    url(../imagens/Copilot_20260312_200733.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
 }
+
 
 header{
     position: static;
