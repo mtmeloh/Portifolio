@@ -488,7 +488,7 @@ nav ul li a:hover{
     min-width: 500px;
     height: 900px;
     padding: 100px;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.142), rgba(0, 0, 0, 0.389));
+    background-image: linear-gradient(10deg, rgba(107, 107, 107, 0.17), rgba(87, 87, 87, 0.389));
     
     backdrop-filter: blur(10px); 
 }
