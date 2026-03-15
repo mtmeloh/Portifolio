@@ -16,7 +16,7 @@ body{
     width: 100vw;
     overflow-x: hidden;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url(../imagens/back-gd.png);
+    url(../imagens/fundo-pt.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
