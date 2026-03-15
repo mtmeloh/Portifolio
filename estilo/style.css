@@ -15,8 +15,8 @@ body{
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     overflow-x: hidden;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url(../imagens/fundo-pt.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)),
+    url(../imagens/teste.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,7 +94,7 @@ nav ul li a:hover{
 }
 
 #Inicio p{
-    color: lightgray;
+    color: white;
     font-size: 1.2em;
     font-weight: 300;
 }
@@ -155,6 +155,7 @@ nav ul li a:hover{
 
 
 
+
 #Sobre-mim{
     width: 100vw;
     min-height: 90vh;
@@ -192,6 +193,7 @@ nav ul li a:hover{
     flex-direction: column;
     align-items: center;
     color: white;
+   
 }
 
 #skills h3{
@@ -201,8 +203,9 @@ nav ul li a:hover{
 
 .container-skills{
     display: flex;
-    justify-content: center;
+    justify-content: start;
      flex-wrap: wrap;
+     
 
 }
 .item-container-skills{
