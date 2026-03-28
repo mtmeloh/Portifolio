@@ -1,179 +1,276 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="shortcut icon" href="../Portifolio/imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/stylemobile.css">
-    <title>Portifólio</title>
-</head>
-<body>
-    
-    <header>
-        <nav>
-            <h3>Mateus Melo</h3>
-            <ul>
-                <li><a href="#Sobre-mim">Sobre Mim</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <title>Mateus Melo | Desenvolvedor Back‑end | Dados e Cloud em formação</title>
 
-    <main>
-        <section id="Inicio">
-            <div class="Int">
-                <h3 class="aparecer">Mateus Melo</h3>
-                <p class="aparecer">
-                    Olá! Meu nome é Mateus Melo. Neste Portifólio você encontrará um pouco sobre mim, meus projetos, habilidades e informações de contato.
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Mateus <span>Melo</span></h1>
+
+        <div class="menu-nav">
+            <a href="#">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+
+    <div class="hero">
+        <div>
+            <h1>Desenvolvedor <span>Back‑end</span></h1>
+
+            <p>
+                Estudante de Sistemas de Informação com foco em desenvolvimento Back‑end, análise de dados e computação
+                em nuvem. Possuo conhecimento em Java, Spring Boot, bancos de dados relacionais, Power BI e fundamentos
+                de AWS. Estou em busca da minha primeira oportunidade profissional na área de tecnologia.
+            </p>
+
+            <div class="buttons">
+                <a href="#projetos" class="btn-primary">Ver Projetos</a>
+                <a href="curriculo/Curriculo_Desenvolvedor_Mateus.pdf" class="btn-outline" download> Download Currículo</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SOBRE -->
+
+    <section id="sobre">
+        <h2 class="title">Sobre Mim</h2>
+
+        <div class="sobre">
+
+            <div>
+                <p>
+                    Sou estudante de Sistemas de Informação e estou focado em construir uma carreira como desenvolvedor
+                    Back‑end.
+                    Tenho conhecimento em Java, lógica de programação, banco de dados e desenvolvimento web.
+
+                    Estou constantemente praticando com projetos próprios para melhorar minha lógica, organização de
+                    código e estrutura de aplicações.
                 </p>
 
-                <div class="div-btn-cv">
-                    <a href="../Portifolio/curriculo/Curriculo_Desenvolvedor_Mateus.pdf.pdf" download="CV-Mateus-De-Melo.pdf" class="btn-cv">
-                        Download CV
-                    </a>
-                </div>
+                <br>
+
+                <p>
+                    Meu objetivo é conquistar minha primeira oportunidade como desenvolvedor júnior e continuar
+                    evoluindo tecnicamente todos os dias.
+                </p>
             </div>
-            
-        </section>
 
-        <section id="Sobre-mim">
-            <h3>Sobre Mim</h3>
-            <div>
-                <p>Sou estudante de Sistemas de Informação com foco em desenvolvimento back-end e construção de aplicações web escaláveis. Tenho experiência prática com Java 17+, Spring Boot, Spring Data JPA e desenvolvimento de APIs RESTful, aplicando arquitetura em camadas, organização de código e boas práticas de versionamento com Git. </p>
-
-                <p>Possuo conhecimento em bancos de dados relacionais como MySQL e PostgreSQL, modelagem de dados e integração entre sistemas. Também tenho familiaridade com HTML, CSS e JavaScript, o que me permite compreender o fluxo completo de uma aplicação web. </p>
-
-                <p>Tenho perfil analítico, facilidade para resolver problemas e disciplina para aprendizado contínuo. Hoje busco minha primeira oportunidade como Desenvolvedor Java Júnior para contribuir tecnicamente com o time, evoluir profissionalmente e participar da construção de soluções eficientes e bem estruturadas.</p>
+            <div class="info-box">
+                <h3>Informações Profissionais</h3>
+                <p>📚 Graduação em Sistemas de Informação (em andamento)</p>
+                <p>💻 Foco profissional: Desenvolvimento Back‑end</p>
+                <p>☁️ Conhecimentos em Cloud: AWS (fundamentos)</p>
+                <p>📊 Conhecimento em Power BI e análise de dados</p>
+                <p>🧠 Tecnologias principais: Java, Spring Boot e SQL</p>
+                <p>🎯 Objetivo: Primeira oportunidade como Desenvolvedor Júnior ou Estágio em Tecnologia</p>
             </div>
-        </section>
 
-        <section id="skills">
-            <h3>Tecnologia de Dominio</h3>
-            <div class="container-skills">
-                <div class="front item-container-skills" >
-                    <h4>Front-end</h4>
-                    <ul>
-                        <li class="html1">HTML <i class="fa-brands fa-html5"></i><span class="percent"></span></li>
-                        <li class="css">CSS <i class="fa-brands fa-css3-alt"></i><span class="percent"></span></li>
-                        <li class="js">JavaScript <i class="fa-brands fa-js"></i><span class="percent"></span></li>
-                    </ul>
-                </div>
-                <div class="back item-container-skills">
-                    <h4>Back-end</h4>
-                    <ul>
-                        <li class="java">Java <i class="fa-brands fa-java"></i><span class="percent"></span></li>
+        </div>
+    </section>
 
-                        <li id="leaf" class="java">Spring Boot <i class="fa-solid fa-leaf"></i><span class="percent"></span></li>
-                        
-                        <li class="logica">Logica<i class="fa-solid fa-brain"></i><span class="percent"></span></li>
-                    </ul>
-                </div>
-                <div class="bd item-container-skills">
-                    <h4>Banco de Dados </h4>
-                    <ul>
-                        <li class="postgree">PostGree 🐘 <span class="percent"></span> </li>
-                        <li class="mysql">MySQL 🐬 <span class="percent"></span> </li>
-                    </ul>
-                </div>
+    <!-- SKILLS -->
 
-                <div class="bd item-container-skills">
-                    <h4>Ferramentas de trabalho</h4>
-                    <ul>
-                        <li class="vs">Visual Studio Code<span class="percent"></span></li>
-                        
-                        <li class="github">GitHub <i class="fa-brands fa-github"></i><span class="percent"></span> </li>
-                        <li class="git">Git <i class="fa-brands fa-git-alt"></i><span class="percent"></span> </li>
-                        
-                    </ul>
-                </div>
+    <section id="skills">
+        <h2 class="title">Habilidades Técnicas</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                <h3>Java e Programação Orientada a Objetos</h3>
+                <p>Conhecimento em lógica de programação, orientação a objetos, organização de código e desenvolvimento
+                    de aplicações back‑end.</p>
             </div>
-        </section>
 
-        <section id="projetos">
-            <h3>Projetos</h3>
-            <h3>Back-End</h3>
-            <div class="container-projetos">        
-                <div class="projeto-card Agd">
-                    <h4> Agendamento de Serviços </h4>
-                    <p>Desenvolvi uma API REST de Agendamento de Serviços usando Spring Boot, Spring Data JPA e H2 Database. </p>
-
-                
-                    <a href="https://github.com/mtmeloh/agendador-horarios" target="_blank">Codigo</a>
-                </div>
-                <div class="projeto-card Agd">
-                    <h4> To-do List</h4>
-                    <p>Desenvolvi uma API REST de Lista de tarefas usando Spring Boot, Spring Data JPA e H2 Database. </p>
-                    <a href="https://github.com/mtmeloh/To-do-list" target="_blank">Codigo</a>
-                </div>
+            <div class="skill">
+                <h3>Spring Boot</h3>
+                <p>Conhecimento em criação de APIs REST, estrutura em camadas, uso de DTOs, organização de projetos e
+                    boas práticas de desenvolvimento.</p>
             </div>
-            <h3>Front-End</h3>
-            <div class="container-projetos">
-                <div class="projeto-card">
-                    <h4>Landing Page-Plano de saúde</h4>
-                <p>Minha Landing Page de plano de saúde responsiva a diversas telas.</p>
-                    <a href=https://mtmeloh.github.io/Landipage-Plano-De-Saude/ target="_blank">Projeto</a>
-                </div>
-                <div class="projeto-card">
-                    <h4>Pagina de Login</h4>
-                    <p>Minha pagina de Login responsiva a diversas telas.</p>
-                    <a href="https://mtmeloh.github.io/Tela-Login/" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="projeto-card">
-                    <h4>Projeto academico Restaurante</h4>
-                    <p>Projeto envolvendo HTML, CSS, JavaScript, Banco de dados(FireBase)</p>
-                    <a href="https://mtmeloh.github.io/Restaurante-ts/" target="_blank">Ver Projeto</a>
-                </div>
-                <div class="projeto-card">
-                    <h4>Projeto Meu Links</h4>
-                    <p>Projeto Meu Links, feito no Curso Discorver/Rocktseat</p>
-                    <a href="https://mtmeloh.github.io/Meus-Links/" target="_blank">Ver Projeto</a>
-                </div>
-            </div>
-        </section>
-        
-        <section id="contato">
-            <h3>Contato</h3>
-            <p>Fique a vontade para entrar em contato comigo! Responderei o mais Breve Possivel.</p>
 
-            <a href="https://www.linkedin.com/in/mateus-melo-dev/" target="_blank">
-                <div class="container-contato">
-                    <div class="item-container">
+            <div class="skill">
+                <h3>Banco de Dados e SQL</h3>
+                <p>Criação de tabelas, consultas SQL, modelagem básica, manipulação de dados e integração com aplicações
+                    back‑end.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Power BI e Análise de Dados</h3>
+                <p>Conhecimento em criação de dashboards, tratamento de dados, visualização de informações e análise
+                    básica de dados.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Cloud Computing (AWS)</h3>
+                <p>Conhecimento em conceitos fundamentais de computação em nuvem, serviços básicos da AWS e estrutura de
+                    aplicações em ambiente cloud.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Desenvolvimento Web</h3>
+                <p>HTML, CSS e JavaScript para construção de interfaces responsivas e integração com aplicações
+                    back‑end.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Git e GitHub</h3>
+                <p>Versionamento de código, organização de projetos e publicação de aplicações.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Aprendizado Contínuo</h3>
+                <p>Estudo constante com cursos, projetos práticos e evolução contínua em desenvolvimento back‑end, dados
+                    e cloud.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projetos">
+    <h2 class="title">Projetos</h2>
+
+    <h3 class="sub-title">Projetos Back-end</h3>
+    <div class="projetos">
+
+        <div class="card">
+            <h3>Projeto To-Do List (API)</h3>
+            <p>API desenvolvida em Java com Spring Boot para gerenciamento de tarefas.</p>
+            <ul class="list">
+                <li>Spring Boot</li>
+                <li>Spring Data JPA</li>
+                <li>Spring Web</li>
+                <li>H2 Database</li>
+            </ul>
+            <a href="https://github.com/mtmeloh/To-do-list">Ver Projeto</a>
+        </div>
+        <div class="card">
+            <h3>Projeto Cadastro de Pets(API)</h3>
+            <p>API desenvolvida em Java com Spring Boot para cadastrar pets em um sistemas de gerenciamento do pet shop.</p>
+            <ul class="list">
+                <li>Spring Boot</li>
+                <li>Spring Data JPA</li>
+                <li>Spring Web</li>
+                <li>PostgreSQL</li>
+            </ul>
+            <a href="https://github.com/mtmeloh/Spring-Boot-Cadastro-Pets">Ver Projeto</a>
+        </div>
+
+    </div>
+
+    <h3 class="sub-title">Projetos Front-end</h3>
+    <div class="projetos">
+
+        <div class="card">
+            <h3>Página de Login</h3>
+        <p>Página responsiva desenvolvida com HTML e CSS com foco em design moderno.</p>
+        <ul class="list">
+                <li>HTMl</li>
+                <li>CSS</li>
+            </ul>
+            <a href="https://mtmeloh.github.io/Tela-de-login-02/">Ver Projeto</a>
+        </div>
+
+        <div class="card">
+            <h3>Landing Page Plano de Saúde</h3>
+            <p>Projeto freelancer utilizando HTML e CSS para uma consultoria médica.</p>
+            <ul class="list">
+                <li>HTMl</li>
+                <li>CSS</li>
+            </ul>
+            <a href="https://mtmeloh.github.io/Landing-Page-Plano-de-Saude/">Ver Projeto</a>
+        </div>
+
+        <div class="card">
+            <h3>Meus Links</h3>
+            <p>Projeto acadêmico para organizar e compartilhar links de redes sociais.</p>
+            <ul class="list">
+                <li>HTMl</li>
+                <li>CSS</li>
+                <li>JS</li>
+            </ul>
+            <a href="https://mtmeloh.github.io/Meus-Links/">Ver Projeto</a>
+        </div>
+
+    </div>
+</section>
+
+    <!-- EXPERIENCIA -->
+
+    <section id="experiencia">
+        <h2 class="title">Formação e Evolução</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <h4>Sistemas de Informação</h4>
+                <span>Graduação em andamento</span>
+                <p>Formação focada em programação, banco de dados e desenvolvimento de software.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h4>Estudos em Java</h4>
+                <span>Foco atual</span>
+                <p>Prática constante com projetos próprios para melhorar lógica e organização de código.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h4>Desenvolvimento Web</h4>
+                <span>HTML, CSS e JavaScript</span>
+                <p>Criação de páginas responsivas e interfaces modernas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+
+    <section id="contato">
+        <h1>Contato</h1>
+        <p>Fique a vontade para entrar em contato comigo! Responderei o mais Breve Possivel.</p>
+
+        <a href="https://www.linkedin.com/in/mateus-melo-dev/" target="_blank">
+            <div class="container-contato">
+                <div class="item-container">
                     <i class="fa-brands fa-linkedin icons-contato" id="link"></i>
                     <h3>Linkedin</h3>
                 </div>
-            </a>
-                
-                <a href="https://www.instagram.com/mello.fsk/" target="_blank">
-                    <div class="item-container">
-                    <i class="fa-brands fa-instagram icons-contato" id="int"></i>
-                    <h3>Instagram</h3>
-                    </div>
-                </a>
+        </a>
 
-                <a href="https://github.com/mtmeloh" target="_blank">
-                    <div class="item-container">
-                       <i class="fa-brands fa-github" id="git"></i>
-                    <h3>GitHub</h3>
-                    </div>
-                </a>
-
-                <a href="https://api.whatsapp.com/send/?phone=5517991961549&text&type=phone_number&app_absent=0" target="_blank">
-                    <div class="item-container">
-                    <i class="fa-brands fa-whatsapp" id="Whats"></i>
-                    <h3>Whatsapp</h3>
-                </div>
-                </a>
+        <a href="https://www.instagram.com/mello.fsk/" target="_blank">
+            <div class="item-container">
+                <i class="fa-brands fa-instagram icons-contato" id="int"></i>
+                <h3>Instagram</h3>
             </div>
-        </section>
+        </a>
 
-    </main>
-    <footer>
-        <p>© 2025 Mateus Melo. Todos os direitos reservados.</p>
-    </footer>
+        <a href="https://github.com/mtmeloh" target="_blank">
+            <div class="item-container">
+                <i class="fa-brands fa-github" id="git"></i>
+                <h3>GitHub</h3>
+            </div>
+        </a>
 
-</body>
-</html>
+        <a href="https://api.whatsapp.com/send/?phone=5517991961549&text&type=phone_number&app_absent=0"
+            target="_blank">
+            <div class="item-container">
+                <i class="fa-brands fa-whatsapp" id="Whats"></i>
+                <h3>Whatsapp</h3>
+            </div>
+        </a>
+        </div>
+    </section>
