@@ -355,4 +355,13 @@ footer{
     .menu-nav{
         display: block;
     }
+
+    .container-contato{
+    flex-direction: column;
+}
+
+    .item-container{
+    width: 200px;
+    height: 110px;
+    }
 }
